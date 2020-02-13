@@ -28,7 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 	
-	$.get("https://lab6yo.herokuapp.com/" + idNumber, callBackFn)
+	$.get("https://lab6yo.herokuapp.com/project/" + idNumber, callBackFn)
 	console.log('url'+projectURL);
 }
 
